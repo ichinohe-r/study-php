@@ -1,10 +1,9 @@
 PHP スクリプトを実行します。
 <?php
 $number = rand();   // 乱数を取得します
-if ($number % 2 == 0 ) {
+if ($number % 2 == 0) {
     echo $number, "は偶数です。", PHP_EOL;
-}
-else {
+} else {
     echo $number, "は奇数です。", PHP_EOL;
 }
 ?>
